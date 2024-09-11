@@ -9,6 +9,6 @@
 
 Here is a preview of the game's user interface:
 
-![Game UI Screenshot]("C:\Users\DELL\IdeaProjects\GuessingGame\src\main\resources\templates\UI.png")
+![Game UI Screenshot](C:\Users\DELL\IdeaProjects\GuessingGame\src\main\resources\templates\UI.png)
 
 > This screenshot showcases the main interface where players enter their guesses and receive hints.
