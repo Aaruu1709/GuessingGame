@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Welcome to the Guessing Game!</h1>
+        <img src="https://th.bing.com/th/id/OIP.MTWsWOdCeWIY0Jg2QbX0PAHaHa?w=512&h=512&rs=1&pid=ImgDetMain" alt="Game Logo" class="logo"> <!-- Add your logo image here -->
+    </header>
+
+    <main>
+        <p>Try to guess the number I am thinking of, between 1 and 10.</p>
+
+        <form action="/play" method="get">
+            <input type="number" name="guess" placeholder="Enter your guess" min="1" max="10" required>
+            <button type="submit">Guess</button>
+        </form>
+
+        <div id="result">
+            <p th:text="${result}">Make a guess to see the result here!</p>
+            <p th:text="${hint}">Hint will appear here if your guess is incorrect.</p>
+        </div>
+    </main>
+
+
+    <h2>
+
+        **"Success isn’t about how fast you reach the finish line; it’s about the determination to keep moving forward,
+        no matter the obstacles."**</h2>
+    <!-- Sticky footer -->
+</div>
+    <footer>
+        <p><b>© 2024 Guessing Game | Aaruu1709 </b></p>
+    </footer>
+
+</body>
+</html>
