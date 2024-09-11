@@ -10,5 +10,7 @@
 Here is a preview of the game's user interface:
 
 ![Game UI Screenshot](C:\Users\DELL\IdeaProjects\GuessingGame\src\main\resources\templates\UI.png)
+![UI](https://github.com/user-attachments/assets/d47d5b0b-673e-4f29-8231-bf2423dfbe97)
+
 
 > This screenshot showcases the main interface where players enter their guesses and receive hints.
